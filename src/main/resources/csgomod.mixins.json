@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.castbound.csgomod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
