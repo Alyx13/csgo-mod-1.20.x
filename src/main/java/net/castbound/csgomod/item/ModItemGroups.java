@@ -1,6 +1,7 @@
 package net.castbound.csgomod.item;
 
 import net.castbound.csgomod.CsgoMod;
+import net.castbound.csgomod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -22,6 +23,10 @@ public class ModItemGroups {
 
                         // Vanilla Minecraft Items
                         entries.add(Items.GUNPOWDER);
+
+                        // Modded Blocks
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     }).build());
 
