@@ -14,10 +14,9 @@ public class CsgoMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 
+		ModItems.registerModItems();
 		ModBlocks.registerModBlock();
 	}
 }

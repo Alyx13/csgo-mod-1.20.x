@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "csgomod:ruby"
+    }
+  },
+  "result": {
+    "item": "csgomod:ruby_block"
+  }
+}

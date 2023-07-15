@@ -12,10 +12,27 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup MODDED_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(CsgoMod.MOD_ID, "modded_group"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modded_group"))
+    public static final ItemGroup TUTORIAL_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(CsgoMod.MOD_ID, "tutorial_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tutorial_group"))
+                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+
+                        // Modded Items
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.RAW_RUBY);
+
+
+                        // Modded Blocks
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+
+                    }).build());
+
+    public static final ItemGroup CSGO_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(CsgoMod.MOD_ID, "csgo_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.csgo_group"))
                     .icon(() -> new ItemStack(ModItems.C4)).entries((displayContext, entries) -> {
+
                         // Modded Items
                         entries.add(ModItems.C4);
                         entries.add(ModItems.AMMO);
@@ -23,10 +40,6 @@ public class ModItemGroups {
 
                         // Vanilla Minecraft Items
                         entries.add(Items.GUNPOWDER);
-
-                        // Modded Blocks
-                        entries.add(ModBlocks.RUBY_BLOCK);
-                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     }).build());
 

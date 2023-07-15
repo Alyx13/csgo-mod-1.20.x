@@ -1,4 +1,6 @@
 {
+  "item.csgomod.ruby": "Ruby",
+  "item.csgomod.raw_ruby": "Raw Ruby",
   "item.csgomod.c4": "C4",
   "item.csgomod.ammo": "Ammo",
   "item.csgomod.bulletshell": "Bullet Shell",
@@ -6,5 +8,6 @@
   "block.csgomod.ruby_block": "Block of Ruby",
   "block.csgomod.raw_ruby_block" : "Block of Raw Ruby",
 
-  "itemgroup.modded_group": "CSGO Items"
+  "itemgroup.tutorial_group": "Tutorial Items",
+  "itemgroup.csgo_group": "CSGO Items"
 }
