@@ -11,9 +11,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup MODDEDGROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(CsgoMod.MOD_ID, "moddedgroup"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgrouop.moddedgroup"))
+    public static final ItemGroup MODDED_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(CsgoMod.MOD_ID, "modded_group"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modded_group"))
                     .icon(() -> new ItemStack(ModItems.C4)).entries((displayContext, entries) -> {
                         // Modded Items
                         entries.add(ModItems.C4);
@@ -26,6 +26,7 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerItemGroups() {
+
         CsgoMod.LOGGER.info("Registering Item Groups for " + CsgoMod.MOD_ID);
     }
 }

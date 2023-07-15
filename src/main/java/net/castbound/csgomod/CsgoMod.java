@@ -1,5 +1,6 @@
 package net.castbound.csgomod;
 
+import net.castbound.csgomod.item.ModItemGroups;
 import net.castbound.csgomod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class CsgoMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
