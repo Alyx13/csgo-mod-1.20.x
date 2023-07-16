@@ -40,7 +40,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MOLOTOV);
 //                        entries.add(ModItems.INCENDIARY);
 //                        entries.add(ModItems.HE_GRENADE);
-//                        entries.add(ModItems.SMOKE);
+                        entries.add(ModItems.SMOKE);
 //                        entries.add(ModItems.FLASHBANG);
 //                        entries.add(ModItems.DECOY);
 
