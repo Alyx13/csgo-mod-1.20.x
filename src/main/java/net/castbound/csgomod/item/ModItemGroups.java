@@ -33,10 +33,16 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.csgo_group"))
                     .icon(() -> new ItemStack(ModItems.C4)).entries((displayContext, entries) -> {
 
-                        // Modded Items
+                        // C4 item
                         entries.add(ModItems.C4);
-                        entries.add(ModItems.AMMO);
-                        entries.add(ModItems.BULLETSHELL);
+
+                        // CSGO utilities
+                        entries.add(ModItems.MOLOTOV);
+//                        entries.add(ModItems.INCENDIARY);
+//                        entries.add(ModItems.HE_GRENADE);
+//                        entries.add(ModItems.SMOKE);
+//                        entries.add(ModItems.FLASHBANG);
+//                        entries.add(ModItems.DECOY);
 
                         // Vanilla Minecraft Items
                         entries.add(Items.GUNPOWDER);

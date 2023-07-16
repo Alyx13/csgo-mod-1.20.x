@@ -1,12 +1,19 @@
 {
   "item.csgomod.ruby": "Ruby",
   "item.csgomod.raw_ruby": "Raw Ruby",
-  "item.csgomod.c4": "C4",
-  "item.csgomod.ammo": "Ammo",
-  "item.csgomod.bulletshell": "Bullet Shell",
 
   "block.csgomod.ruby_block": "Block of Ruby",
   "block.csgomod.raw_ruby_block" : "Block of Raw Ruby",
+
+
+  "item.csgomod.c4": "C4",
+  "item.csgomod.molotov": "Molotov",
+  "item.csgomod.incendiary": "Incendiary Grenade",
+  "item.csgomod.he_grenade": "High Explosive Grenade",
+  "item.csgomod.smoke": "Smoke Grenade",
+  "item.csgomod.flashbang": "Flashbang",
+  "item.csgomod.decoy": "Decoy Grenade",
+
 
   "itemgroup.tutorial_group": "Tutorial Items",
   "itemgroup.csgo_group": "CSGO Items"

@@ -30,6 +30,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlock() {
+
         CsgoMod.LOGGER.info("Registering ModBlocks for " + CsgoMod.MOD_ID);
     }
 }
