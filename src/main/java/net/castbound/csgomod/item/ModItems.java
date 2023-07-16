@@ -21,7 +21,7 @@ public class ModItems {
     public static final Item MOLOTOV = registerItem("molotov", new Item(new FabricItemSettings()));
 //    public static final Item INCENDIARY = registerItem("INCENDIARY", new Item(new FabricItemSettings()));
 //    public static final Item HE_GRENADE = registerItem("he_grenade", new Item(new FabricItemSettings()));
-//    public static final Item SMOKE = registerItem("smoke", new Item(new FabricItemSettings()));
+    public static final Item SMOKE = registerItem("smoke", new Item(new FabricItemSettings()));
 //    public static final Item FLASHBANG = registerItem("flashbang", new Item(new FabricItemSettings()));
 //    public static final Item DECOY = registerItem("decoy", new Item(new FabricItemSettings()));
 
